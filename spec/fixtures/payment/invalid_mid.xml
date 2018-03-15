@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+  <soapenv:Body>
+    <ns:startTransactionResponse xmlns:ns="http://kz.processing.cnp.merchant_ws/xsd">
+      <ns:return xmlns:ax226="http://merchant_web_services.cnp.processing.kz/xsd" xmlns:ax224="http://beans.merchant_web_services.cnp.processing.kz/xsd" xmlns:ax222="http://beans.common.cnp.processing.kz/xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ax224:StartTransactionResult">
+        <ax224:customerReference xsi:nil="true" />
+        <ax224:errorDescription>Invalid MID XXXXXXXXXXXXXXX</ax224:errorDescription>
+        <ax224:redirectURL xsi:nil="true" />
+        <ax224:success>false</ax224:success>
+      </ns:return>
+    </ns:startTransactionResponse>
+  </soapenv:Body>
+</soapenv:Envelope>

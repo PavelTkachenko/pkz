@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+  <soapenv:Body>
+    <ns:startTransactionResponse xmlns:ns="http://kz.processing.cnp.merchant_ws/xsd">
+      <ns:return xmlns:ax226="http://merchant_web_services.cnp.processing.kz/xsd" xmlns:ax224="http://beans.merchant_web_services.cnp.processing.kz/xsd" xmlns:ax222="http://beans.common.cnp.processing.kz/xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ax224:StartTransactionResult">
+        <ax224:customerReference>111000052721</ax224:customerReference>
+        <ax224:errorDescription xsi:nil="true" />
+        <ax224:redirectURL>https://test.processing.kz/CNPConsumerWebsite/RequestCardholderDetails?tranGUID=29827b76-86cd-41ca-a1c7-f4b0bef64301</ax224:redirectURL>
+        <ax224:success>true</ax224:success>
+      </ns:return>
+    </ns:startTransactionResponse>
+  </soapenv:Body>
+</soapenv:Envelope>

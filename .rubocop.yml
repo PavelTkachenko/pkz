@@ -1,0 +1,11 @@
+Metrics/LineLength:
+  Max: 80
+
+Metrics/MethodLength: 
+  Max: 20
+
+Metrics/ClassLength:
+  Max: 500
+
+Style/StringLiterals:
+  EnforcedStyle: double_quotes
